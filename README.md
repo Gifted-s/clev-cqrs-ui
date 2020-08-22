@@ -1,6 +1,6 @@
 # clev-cqrs-ui
 
-This module allows you to autogenerate a page that shows all the events that has ever occured to your entity. It is used in conjunction with the [clev-cqrs module)[https://github.com/Gifted-s/clev-cqrs].
+This module allows you to autogenerate a page that shows all the events that has ever occured to your entity. It is used in conjunction with the (clev-cqrs module)[https://github.com/Gifted-s/clev-cqrs].
 
 ![alt text](https://firebasestorage.googleapis.com/v0/b/oaiup-ee651.appspot.com/o/Screenshot%20(64).png?alt=media&token=63f615c5-a6de-44db-b20c-8fd9042dd9b8)
 
@@ -16,7 +16,6 @@ Do **not** modify any files in the `express` folder.
 ## Requirements
 Make sure the following are installed
 * Node v14.3.0 or above [Download](http://nodejs.org/)
-* Express 4 or above 
 * clev-cqrs must be [installed](https://github.com/Gifted-s/clev-cqrs-ui) with a basic understand of how it is used
 
 
