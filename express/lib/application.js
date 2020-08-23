@@ -573,9 +573,7 @@ app.render = function render (name, options, callback) {
       root: this.get('views'),
       engines: engines
     })
-    // root: 'F:\\AllMyApps\\node-cqrs-library\\views',
-    // engine: [Function: bound renderView] AsyncFunction,
-    // path: 'F:\\AllMyApps\\node-cqrs-library\\views\\home\\start.hbs'
+  
 
     view.path = view.root + '\\home\\start.hbs'
 

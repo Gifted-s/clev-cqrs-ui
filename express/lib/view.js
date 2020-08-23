@@ -58,7 +58,7 @@ function View(name, options) {
   let splittedRoot =opts.root.split('') 
   let ind = splittedRoot.indexOf('v')
  
-  splittedRoot.splice(ind,0,'node_modules\\node-cqrs\\')
+  splittedRoot.splice(ind,0,'node_modules\\clev-cqrs-ui\\')
   opts.root= splittedRoot.join("")
   this.root = opts.root;
 
