@@ -9,7 +9,7 @@
     <a class="navbar-brand" href="#">
         <h4 class="text-light">EventStore
 
-            <span class="text-light ml-1 badge badge-secondary tt"> 1.0.0</span>
+            <span class="text-light ml-1 badge badge-secondary tt">powered by clev-cqrs</span>
         </h4>
 
     </a>
@@ -24,7 +24,7 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
 
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Documentation</button>
+           <a class="btn btn-outline-light my-2 my-sm-0" target="_blank" href="https://github.com/Gifted-s/clev-cqrs#readme">Documentation</a> 
         </form>
     </div>
 </nav>
@@ -81,7 +81,7 @@
                 {{this.eventTime}}
             </div>
             <div class="col-md-6">
-                {{this.data}}
+         <p style="background-color: rgb(15, 117, 46);padding:6px; color:white;"><span style="color:white;font-size:10px; font-weight:400">JSON</span><br/>  {{this.data.changedData}} </p> 
             </div>
 
         </div>
