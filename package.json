@@ -1,7 +1,7 @@
 {
   "name": "clev-cqrs-ui",
   "description": "Adds middleware to your express app to autogenerate a page that shows all the events that has ever happend to your entity using the clev-cqrs-ui bound to the clev-cqrs framework.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "author": "Adewumi Sunkanmi",
   "engines": {

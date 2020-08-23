@@ -14,6 +14,7 @@ let generatePage = (
     app.use(express.static(path.join(__dirname, 'public')))
     _this.generatePage = app
     router.get('/', async function (req, res, next) {
+      // get all events as an array of aggregates from event store
       const docs = await eventStore.getAll()
       res.render('home/start', { title: 'Event Store', name: schemaName, event: docs })
     })
