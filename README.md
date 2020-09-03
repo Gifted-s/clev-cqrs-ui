@@ -2,7 +2,7 @@
 
 This module allows you to autogenerate a page that shows all the events that has ever occured to your entity. It is used in conjunction with the [clev-cqrs module](https://github.com/Gifted-s/clev-cqrs).
 
-![alt text](https://firebasestorage.googleapis.com/v0/b/oaiup-ee651.appspot.com/o/Screenshot%20(64).png?alt=media&token=63f615c5-a6de-44db-b20c-8fd9042dd9b8)
+![alt text](https://firebasestorage.googleapis.com/v0/b/oaiup-ee651.appspot.com/o/Screenshot%20(68).png?alt=media&token=54816f3c-1003-49ad-a8a2-910c03385946)
 
 ## Documentation
 The official documentation website is at our [repository](https://github.com/Gifted-s/clev-cqrs-ui).
@@ -55,7 +55,7 @@ app.listen(4000, ()=> console.log('server listening...'))
 Now enter the following in the  the browser **localhost:4000/cqrs**
 It looks like this
 
-![alt text](https://firebasestorage.googleapis.com/v0/b/oaiup-ee651.appspot.com/o/Screenshot%20(64).png?alt=media&token=63f615c5-a6de-44db-b20c-8fd9042dd9b8)
+![alt text](https://firebasestorage.googleapis.com/v0/b/oaiup-ee651.appspot.com/o/Screenshot%20(68).png?alt=media&token=54816f3c-1003-49ad-a8a2-910c03385946)
 
 Check out the eventStore page in [clev-cqrs](https://github.com/Gifted-s/clev-cqrs ) page the  to see full setup with clev-cqrs
 
